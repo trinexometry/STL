@@ -23,23 +23,19 @@ int main()
     print_vector(v1);  
 
     cout<<endl;
-    
-    v = {1,2,3,4};
-    print_vector(v);
-    cout<<endl;
 
-    // cout<<"enter the size of the vector: "<<endl;
-    // int n;
-    // cin>>n;
-    // for (int i = 0; i < n; i++)
-    // {
-    //     int x;
-    //     cout<<"enter "<<i<<"th element: ";
-    //     cin>>x;
-    //     print_vector(v);
-    //     v.push_back(x); //O(1)
-    // }
-    // print_vector(v);
+    cout<<"enter the size of the vector: "<<endl;
+    int n;
+    cin>>n;
+    for (int i = 0; i < n; i++)
+    {
+        int x;
+        cout<<"enter "<<i<<"th element: ";
+        cin>>x;
+        print_vector(v);
+        v.push_back(x); //O(1)
+    }
+    print_vector(v);
 
     cout<<endl;
     //copying vectors
