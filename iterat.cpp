@@ -36,5 +36,43 @@ int main()
         cout<< it_p->first <<" "<< it_p->second<<endl;
     }
 
+    cout<<endl;
+    cout<<endl;
+    //how to write iterator code in short
+    //RANGE BASED LOOPS 
+    for(int value : v){  //This value makes a copy of every element of v(not referencd)
+        cout<<value<<" ";
+    }
+    
+    //if you make any changes in value and iterate it again below
+    //the value won't change as it'll make a new copy
+
+    //to use reference
+
+    cout<<endl;
+    cout<<endl;
+
+    for(pair<int,int>  &value: v_p){
+        cout<<value.first<<" "<<value.second<<endl;
+    }
+
+    cout<<endl;
+    cout<<endl;
+
+    //AUTO KEYWORD
+    //auto keyword basically deducts the datatype dynamically, with auto keyword
+    //you don't have to write the initialisation for the iterators.
+
+    for(auto it = v.begin(); it!=v.end(); ++it){
+        cout<< (*it) <<" ";
+    }
+
+    cout<<endl;
+    cout<<endl;
+
+    for(auto &hehe: v_p){
+        cout<<hehe.first<<" "<<hehe.second<<endl;
+    }
+
     return 0;
 }
