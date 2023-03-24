@@ -3,9 +3,9 @@ using namespace std;
  
 void print_vector(vector<int> v){  //(v here is passed by value that means a different copy is made, to pass it by reference use &v)
     cout<<"vector size: "<<v.size()<<endl;
-    for (int i = 0; i < v.size() /*O(1)*/; i++)
+    for (int value: v)
     {   
-        cout<<v[i]<<" ";
+        cout<<value<<" ";
     }
     cout<<endl;
     
