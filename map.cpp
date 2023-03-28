@@ -7,6 +7,8 @@ void print_map(map<int, string> &m){
     }
 }
 
+//implementation is done by the red-black balanced trees
+
 int main()
 {   map<int, string> m;
     m[5] = "gaurav";
