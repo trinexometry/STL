@@ -1,0 +1,12 @@
+.begin() -> Returns an iterator pointing to the first element of the set
+.end()  -> Returns an iterator pointing next to the last element of the set
+.rbegin() -> Returns a reverse iterator pointing to the last element of the set
+.rend() -> Returns a reverse iterator pointing before the first element of the set
+
+
+map -> sorted unique keys...different keys can point to same value..O(log n)..red black tree
+unordered_map -> unsorted unique keys..different keys can point to same value..O(1)..hashing...u cannot use it for complex data type like pair,set..
+multimap -> a key pointing to more than one value...O(1)..Red black tree
+set -> sorted unique values..no key..O(log n)..red black tree
+Unordered_set -> unsorted unique values..no key..O(1)..hashing...u cannot use it for complex data type like pair,set..
+multiset -> Dupli
