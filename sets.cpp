@@ -20,9 +20,11 @@ void delete_set(set<string> &s){
     }
 }
 
+//you cannot use complex data structures like vectors or pairs into sets
+
 int main()
 {   set<string> s;
-    s.insert("caurav"); //log(n) for both insertion and accesing the element 
+    s.insert("caurav"); //// time complexity O(log(n)) for both insertion and accesing the element 
     s.insert("bumar");
     s.insert("aharma");
 

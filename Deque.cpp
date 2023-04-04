@@ -42,5 +42,6 @@ int main()
         cout<<i<<" ";
     }cout<<endl;
 
+
     return 0;
 }
