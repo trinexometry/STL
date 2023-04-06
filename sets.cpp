@@ -21,7 +21,7 @@ void delete_set(set<string> &s){
 }
 
 //you cannot use complex data structures like vectors or pairs into sets
-
+//store values in a sorted order
 int main()
 {   set<string> s;
     s.insert("caurav"); //// time complexity O(log(n)) for both insertion and accesing the element 
