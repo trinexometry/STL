@@ -26,7 +26,7 @@ int main()
     //The time complexity of log(n) also depends upon the type of map we are using 
     //ex: if we are using string then the net time complexity becomes = string.size() * log(n)
 
-    auto it = m.find(9);   
+    auto it = m.find(9);   //find returns the iterator of the argument passed, if the argument is not found then find return the END iteretor
     if(it == m.end()){
         cout<< "NO VALUE"<<endl;
     } else{ 
