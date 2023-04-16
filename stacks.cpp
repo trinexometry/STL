@@ -23,7 +23,6 @@ int main()
 
     print_Stack(s);
     
-
-
+    
     return 0;
 }
